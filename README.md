@@ -1,4 +1,36 @@
-# [PROJECT NAME]
+# printFig
+
+printFig is a MATLAB tool for exporting figures via the command line and in scripts.
+
+## Requirements
+Please check 'requirements.txt' for the software's dependencies.
+
+## Installation
+1. Download the software by clicking the dropdown menu 'Code' and click 'Download ZIP'.
+2. Unpack the zip file and move the folder to your desired location.
+3. Go to 'requirements.txt' and move the dependencies to the folder LifetimeAnalysis/bin/external
+4. Open MATLAB and add the folder ("Add with subfolders") to your MATLAB path.
+
+![image](https://user-images.githubusercontent.com/77492856/119955717-99be7300-bfa0-11eb-8c8a-0a6765b572dc.png)
+
+The software is now ready to use.
+
+5. Open the demo script in LifetimeAnalysis/src/scripts/demo/demo_script.mlx and run the code.
+
+## Usage
+
+Initialize a printFig object
+```
+p = printFig()
+```
+or directly with arguments setting the path to a specific save folder.
+```
+p = printFig('savepath','path to save folder, e.g. ../results/figures/current_project')
+```
+Now plot a figure and save it directly to 
+
+
+
 
 ## Project organization
 - PG = project-generated
