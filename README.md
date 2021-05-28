@@ -15,8 +15,6 @@ Please check 'requirements.txt' for the software's dependencies.
 
 The software is now ready to use.
 
-5. Open the demo script in LifetimeAnalysis/src/scripts/demo/demo_script.mlx and run the code.
-
 ## Usage
 
 Initialize a printFig object
