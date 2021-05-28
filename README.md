@@ -55,7 +55,7 @@ for the documentation or
 ```
 help printFig.print
 ```
-for the documentation of a specific function, which is the 'print' function in this example.
+for the documentation of a specific function, which is the 'print' function in this example. 
 
 ## Project organization
 - PG = project-generated
