@@ -20,17 +20,36 @@ The software is now ready to use.
 ## Usage
 
 Initialize a printFig object
-```Matlab
+```
 p = printFig();
 ```
 or directly with arguments setting the path to a specific save folder.
-```Matlab
-p = printFig('savepath','path to save folder, e.g. ../results/figures/current_project')
 ```
-Now plot a figure and save it directly to 
+p = printFig('savepath','path to save folder, e.g. ../results/figures/current_project');
+```
+Let's set the units in the plotExt variable to png only, which has the flag '-dpng'
+```
+p.plotExt = {'-dpng'};
+```
+all options are given here: https://nl.mathworks.com/help/matlab/ref/saveas.html and 'fig' to save the figure as MATLAB Figure file.
 
+Now plot a figure with the print command and save it directly to the save folder. In this example, we name the file 'result'
+```
+p.print('result');
+```
+and the figure 'result.png' is written to the save folder.
 
+## Documentation
 
+Type
+```
+doc printFig
+```
+for the documentation or
+```
+help printFig.print
+```
+for the documentation of a specific function. In this example the 'print' function.
 
 ## Project organization
 - PG = project-generated
@@ -59,7 +78,6 @@ Now plot a figure and save it directly to
 └── src                <- Source code for this project (HW)
 
 ```
-
 
 ## License
 
