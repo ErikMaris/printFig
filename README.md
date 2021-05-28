@@ -20,8 +20,8 @@ The software is now ready to use.
 ## Usage
 
 Initialize a printFig object
-```
-p = printFig()
+```matlab
+p = printFig();
 ```
 or directly with arguments setting the path to a specific save folder.
 ```
