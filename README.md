@@ -39,6 +39,12 @@ p.print('result');
 ```
 and the figure 'result.png' is written to the save folder.
 
+Alternatively, the GUI is launched via the command
+```
+ExportFigures_App(parent)
+```
+where the parent is an object with field parent.printFig with contains a 'printFig' object. This is solely meant for integration with GUI's and is not (yet) available as stand-alone.
+
 ## Documentation
 
 Type
