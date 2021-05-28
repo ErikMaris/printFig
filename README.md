@@ -20,11 +20,11 @@ The software is now ready to use.
 ## Usage
 
 Initialize a printFig object
-```matlab
+```Matlab
 p = printFig();
 ```
 or directly with arguments setting the path to a specific save folder.
-```
+```Matlab
 p = printFig('savepath','path to save folder, e.g. ../results/figures/current_project')
 ```
 Now plot a figure and save it directly to 
